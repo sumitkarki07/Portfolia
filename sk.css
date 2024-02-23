@@ -1,0 +1,471 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'josefin sans',sans-serif;
+    box-sizing: border-box;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(224, 40, 40, 0.012); 
+     
+  }
+  
+  
+  body {
+    margin-top: 80px; 
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero {
+    margin-top: -20px;
+    padding-top: 20px;
+  }
+.hero{
+   
+    width: 100%;
+    background-image: url(skdada.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: rgb(17, 238, 54);
+   transition: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.btn{
+    background-color: #f9004d;
+    color: rgb(16, 16, 16);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 6px 13px;
+    border-radius: 30px;
+   transition: transform .4s;
+
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+
+.logo{
+    color: rgb(184, 255, 148);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+span{
+    color: rgb(248, 249, 247);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.intro{
+    position: absolute;
+    top: 60%;
+    left:16%;
+
+}
+
+h1{
+    color: rgb(245, 243, 243);
+    margin: 20px opx 20px;
+    font-size: 50px;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h3{
+    color: white;
+    font-size: 18px;
+  }
+
+ h3 span{
+        color: rgb(254, 152, 9);
+        font-size: medium;
+    }
+    h1 span{
+        color: #c6f53b;
+    
+    }
+     h3 span1{
+        font-size: larger;
+        color: #2ef706;
+
+}
+.about {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #272525;
+  text-align: center; 
+  height: auto; 
+  overflow: hidden; 
+}
+
+.about img {
+  height: auto;
+    max-width: 100%; 
+    width: 290px;
+    margin: 0 auto 20px; 
+}
+
+.about-text {
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 0 20px;
+}
+
+.about-text h2 {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px; 
+}
+
+.about-text h5,
+.about-text p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px; 
+}
+
+.about-text h5 span {
+  color: rgb(14, 233, 80);
+  font-size: 15px;
+}
+
+.about-text p button {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #2f3cf7;
+  padding: 3px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  align: center; /* Center align button */
+}
+
+        
+    .main{
+        height: 460px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .main figure{
+        margin: 0px;
+        padding: 5px;
+        width: min-content;
+        border: thin #d8e42c solid;
+    }
+    .main figure figcaption{
+        padding: 8px;
+        text-align: center;
+        font-weight: bold;
+      
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        background-color: rgb(90, 37, 236);
+        cursor: pointer;
+    }
+    .container {
+        width: 80%; 
+      }
+      
+      .img {
+        width: 50vw; 
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+
+      
+
+/* Skills Section */
+.skills {
+  background-color: #555050;
+  padding: 80px 0;
+  
+ 
+background-size: 120%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  color: #2ef706;
+}
+
+.skill-card {
+  width: 350px;
+  height: 250px;
+  margin: 40px;
+  padding: 80px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(100, 89, 89, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10%;
+ 
+  background-image: url("bg1.jpg");
+  background-size: 120%;
+  
+  
+}
+
+
+
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-icon {
+  font-size: 40px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.skill-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2ef706;
+}
+
+.skill-card p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+
+
+
+    
+
+/* Certificate Section */
+.certificate-container {
+  white-space: nowrap; 
+  overflow-x: auto; 
+  
+  background-color: #454141;
+}
+
+.certificate-box {
+  display: inline-block; 
+  width: 300px; 
+  height: 300px; 
+  margin: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: flex 0.3s ease-in-out;
+  background-color: #e91c1c;
+}
+
+.certificate-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Certificate Modal */
+.certificate-modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  display: block;
+  margin: 50px auto;
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+footer .social-icons a:hover {
+  color: #ffcc00;
+}
+
+
+
+
+
+/* Menu Icon styles */
+.menu-icon {
+  display: none; /* Initially hide on larger screens */
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block; /* Show on smaller screens */
+  }
+
+  nav ul {
+    display: none; 
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+  }
+
+  nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  nav ul.show {
+    display: flex; /* Show navigation links when the class is added */
+  }
+}
+
+ 
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main figure {
+    margin-bottom: 20px;
+  }
+
+  .main figure img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+  }
+
+  .main figure figcaption {
+    font-size: 14px; /* Adjust the font size as needed */
+    padding: 5px;
+  }
+}
+ 
+
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden; 
+  }
+
+  .hero {
+    width: 100vw; 
+  }
+
+  .main {
+    overflow-x: hidden; 
+  }
+
+  
+}
+
+
